@@ -35,7 +35,7 @@ export function ExperienceCard({
                   <img
                     src={experience.logo}
                     alt={`${experience.company} logo`}
-                    className="max-h-full max-w-full object-contain opacity-70 grayscale transition-all duration-500 group-hover:opacity-100 group-hover:grayscale-0"
+                    className="max-h-full max-w-full object-contain opacity-70 md:grayscale transition-all duration-500 group-hover:opacity-100 group-hover:grayscale-0"
                   />
                 </div>
 

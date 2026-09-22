@@ -40,7 +40,7 @@ export function Contact() {
               sm:text-xs
             "
           >
-            <span>05 / Contact</span>
+            <span>07 / Contact</span>
 
             <span className="hidden sm:block">Start a conversation</span>
           </div>
@@ -170,7 +170,7 @@ export function Contact() {
               -z-10
             "
           >
-            05
+            07
           </div>
         </div>
       </div>

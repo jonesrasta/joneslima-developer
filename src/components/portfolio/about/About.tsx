@@ -55,7 +55,7 @@ export function About() {
             sm:text-xs
           "
         >
-          <span>04 / About</span>
+          <span>06 / About</span>
           <span className="hidden sm:block">Profile & capabilities</span>
         </div>
 
