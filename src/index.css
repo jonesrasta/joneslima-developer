@@ -15,23 +15,16 @@
 
 @font-face {
   font-family: "Startup";
-  src: url("/font/Startup-Thin.otf") format("opentype");
+  src: url("/font/Startup-Thin.woff2") format("woff2");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Startup";
-  src: url("/font/Startup-Extralight.otf") format("opentype");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
 
 @font-face {
   font-family: "Startup";
-  src: url("/font/Startup-Light.otf") format("opentype");
+  src: url("/font/Startup-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -39,7 +32,7 @@
 
 @font-face {
   font-family: "Startup";
-  src: url("/font/Startup-Regular.otf") format("opentype");
+  src: url("/font/Startup-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -47,7 +40,7 @@
 
 @font-face {
   font-family: "Startup";
-  src: url("/font/Startup-Medium.otf") format("opentype");
+  src: url("/font/Startup-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -55,7 +48,7 @@
 
 @font-face {
   font-family: "Startup";
-  src: url("/font/Startup-Semibold.otf") format("opentype");
+  src: url("/font/Startup-Semibold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -63,7 +56,7 @@
 
 @font-face {
   font-family: "Startup";
-  src: url("/font/Startup-Bold.otf") format("opentype");
+  src: url("/font/Startup-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -71,7 +64,7 @@
 
 @font-face {
   font-family: "Startup";
-  src: url("/font/Startup-Extrabold.otf") format("opentype");
+  src: url("/font/Startup-Extrabold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -79,7 +72,7 @@
 
 @font-face {
   font-family: "Startup";
-  src: url("/font/Startup-Black.otf") format("opentype");
+  src: url("/font/Startup-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
