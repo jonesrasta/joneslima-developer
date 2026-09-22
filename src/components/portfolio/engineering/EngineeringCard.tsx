@@ -6,10 +6,9 @@ interface EngineeringCardProps {
 
 export function EngineeringCard({ item }: EngineeringCardProps) {
   return (
-    <article className="group border-t border-white/10 py-8 px-4 transition-all duration-300 hover:border-sky-500/50 hover:bg-white/[0.02] rounded-xl">
+    <article className="group border-t border-white/10 py-8 px-4 transition-all duration-300 hover:border-sky-500/50 hover:bg-white/0.02 rounded-xl">
       <div className="grid gap-6 md:grid-cols-[80px_1fr_1fr] items-start">
         <span className="font-mono text-xs text-sky-400/80 group-hover:text-sky-400 transition-colors">{item.number}</span>
-
         <div>
           <h3 className="text-2xl font-black tracking-tight text-white uppercase group-hover:text-sky-300 transition-colors">
             {item.title}

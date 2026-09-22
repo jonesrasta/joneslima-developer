@@ -52,7 +52,7 @@ export function EducationCard({ item }: EducationCardProps) {
             loading="lazy"
             decoding="async"
             className="
-              max-h-14 max-w-[190px]
+              max-h-14 max-w-47.5
               object-contain object-left
               opacity-70
               grayscale

@@ -77,11 +77,11 @@ export function Hero() {
         className="
           pointer-events-none absolute
           right-[-20%] top-[5%]
-          h-[22rem] w-[22rem]
+          h-88 w-88
           rounded-full
-          bg-gradient-to-br from-sky-500/20 via-blue-600/10 to-transparent
+          bg-linear-to-br from-sky-500/20 via-blue-600/10 to-transparent
           blur-[60px]
-          md:h-[45rem] md:w-[45rem] md:blur-[120px]
+          md:h-180 md:w-180 md:blur-[120px]
           transition-transform duration-300 ease-out
           will-change-transform
         "
@@ -93,7 +93,7 @@ export function Hero() {
         className="
           pointer-events-none absolute
           left-[-10%] bottom-[5%]
-          h-[25rem] w-[25rem]
+          h-100 w-100
           rounded-full
           bg-indigo-500/5
           blur-[100px]
@@ -109,7 +109,7 @@ export function Hero() {
               className="
                 inline-flex items-center gap-2
                 rounded-full
-                border border-white/0.08
+                border border-sky-400/30
                 bg-white/[0.035]
                 px-3.5 py-2
                 font-mono text-[10px]
@@ -136,7 +136,7 @@ export function Hero() {
             id="hero-title"
             className="
     hero-animate hero-title
-    max-w-[65rem]
+    max-w-260
     text-[clamp(2.9rem,10vw,6.5rem)]
     font-black
     uppercase
@@ -197,7 +197,7 @@ export function Hero() {
                 I turn ideas into digital products combining product thinking, interface design, engineering and performance.
               </p>
             </div>
-            <TechButton className="w-62 py-4" href="#work">
+            <TechButton className="w-62 py-4" href="#projects">
               Explore work
             </TechButton>
           </div>

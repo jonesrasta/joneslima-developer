@@ -53,7 +53,7 @@ export function Education() {
               // 04 — EDUCATION
             </span>
 
-            <h2 className="mt-6 max-w-3xl text-5xl font-black uppercase tracking-[-0.05em] text-white md:text-7xl">
+            <h2 className="mt-6 max-w-3xl text-5xl font-black uppercase tracking-tighter text-white md:text-7xl">
               Always
               <br />
               <span className="bg-linear-to-r from-sky-400 via-blue-500 to-indigo-200 bg-clip-text italic text-transparent">

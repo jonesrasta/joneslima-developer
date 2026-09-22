@@ -46,7 +46,7 @@ export function Engineering() {
   return (
     <section ref={sectionRef} id="engineering" className="px-6 bg-[#020408] py-10 lg:px-8 lg:py-20 relative z-10">
       <div className="mx-auto max-w-7xl">
-        <SectionLabel number="02">Engineering</SectionLabel>
+        <SectionLabel number="05">Engineering</SectionLabel>
 
         {/* Mudado de grid colunas fixas para uma estrutura empilhada em mobile e lado a lado limpa no LG */}
         <div className="flex flex-col lg:grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
@@ -54,7 +54,7 @@ export function Engineering() {
           <div className="lg:col-span-5 lg:sticky lg:top-32">
             <h2 className="text-4xl font-black tracking-tight text-white md:text-6xl uppercase">
               Good software <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-blue-500 to-indigo-200 italic">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-sky-400 via-blue-500 to-indigo-200 italic">
                 is more than code.
               </span>
             </h2>
